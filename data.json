@@ -1,0 +1,17 @@
+{
+  "saldo": 1500,
+  "movimentacoes": [
+    {
+      "tipo": "saida",
+      "categoria": "Mercado",
+      "valor": 100,
+      "data": "2026-06-21"
+    },
+    {
+      "tipo": "entrada",
+      "categoria": "Salário",
+      "valor": 2000,
+      "data": "2026-06-20"
+    }
+  ]
+}

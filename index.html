@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prestação de Contas - Sr Cotides</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+<h1>Prestação de Contas da Sr Cotides</h1>
+</header>
+
+<div class="cards">
+  <div class="card">
+    <h3>Saldo</h3>
+    <p id="saldo">Carregando...</p>
+  </div>
+
+  <div class="card">
+    <h3>Entradas</h3>
+    <p id="entradas"></p>
+  </div>
+
+  <div class="card">
+    <h3>Saídas</h3>
+    <p id="saidas"></p>
+  </div>
+</div>
+
+<h2>Movimentações</h2>
+
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Categoria</th>
+<th>Valor</th>
+<th>Data</th>
+</tr>
+</thead>
+<tbody id="tabela"></tbody>
+</table>
+
+<script src="app.js"></script>
+</body>
+</html>
